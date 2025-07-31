@@ -16,7 +16,7 @@ Prueba técnica desarrollada en Symfony para la gestión de restaurantes. Esta A
 ##  Despliegue en producción
 
 - 🔗 **API REST desplegada en Railway:**  
-  [`https://restaurante-api.up.railway.app`](https://restaurante-api.up.railway.app)
+  [`https://restaurante-api-production-005e.up.railway.app`](https://restaurante-api-production-005e.up.railway.app)
 
 ---
 
@@ -25,7 +25,7 @@ Prueba técnica desarrollada en Symfony para la gestión de restaurantes. Esta A
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/restaurante-api.git
+git clone https://github.com/Ninoo0502/restaurante-api.git
 cd restaurante-api
 ```
 
@@ -40,7 +40,7 @@ composer install
 Renombrar el archivo `.env.example` a `.env` y ajustar la conexión a base de datos:
 
 ```
-DATABASE_URL="mysql://usuario:password@127.0.0.1:3306/restaurante_api?serverVersion=8.0"
+DATABASE_URL="mysql://root:uokZFHcUuZFmnKcizmyiSxsBJWOlpBSJ@tramway.proxy.rlwy.net:58629/railway"
 ```
 
 ### 4. Crear la base de datos y ejecutar migraciones
